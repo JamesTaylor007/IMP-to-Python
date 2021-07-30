@@ -1,0 +1,10 @@
+X := 1;
+Y := 1;
+Result := 0;
+Count := 0;
+while Count < 100 do
+Result := X + Y;
+X := Y;
+Y := Result;
+Count := Count + 1
+od
