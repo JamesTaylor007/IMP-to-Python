@@ -73,7 +73,7 @@ LETTERS : [a-z]+ ;
 
 But what are parser rules?
 
-If we have a basic calculator that can only add up two single digit numbers then we need to beable to process statements such as: 
+If we have a basic calculator that can only add up two single digit numbers then we need to be able to process statements such as: 
 2 + 2 
 
 So we need to take each individual token and tell the grammar what it is. In this case when it sees a plus sign inbetween two numbers then that is an operation. So the grammar for this basic calclator would look like so:
